@@ -1,0 +1,2 @@
+Python is fun. Python is useful. 
+Learning Python is fun, and learning takes practice.
