@@ -20,4 +20,10 @@ print("Unique words:", len(word_dict))
 print("WORDS AND THEIR FREQUENCIES:")
 for word in word_dict:
   print(word,":",word_dict[word])
-  
+
+#display the most frequent word
+freq=1
+for word in word_dict:
+	if word_dict[word]>freq:
+		most_word=word
+		freq=word_dict[word]
